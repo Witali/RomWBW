@@ -6,6 +6,7 @@
 **/*.[Rr][Oo][Mm]
 **/*.com
 **/*.eeprom
+**/*.err
 **/*.hex
 **/*.img
 **/*.lib
@@ -46,13 +47,14 @@ Source/HBIOS/Blank512KB.dat
 Source/HBIOS/build.inc
 Source/Images/blank144
 Source/Images/blankhd
-Source/Prop/Spin/ParPortProp.list
-Source/Prop/Spin/PropIO.list
-Source/Prop/Spin/PropIO2.list
+Source/Prop/ParPortProp.list
+Source/Prop/PropIO.list
+Source/Prop/PropIO2.list
 Source/ZPM3/bnkbios3.spr
 Source/ZPM3/gencpm.com
 Source/ZPM3/gencpm.com
 Source/ZPM3/gencpm.dat
+Source/ZPM3/genbnk.dat
 
 Tools/Linux
 Tools/Darwin
